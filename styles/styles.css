@@ -169,11 +169,7 @@ table {
   color: #FFDB1E;
 }
 
-.description-container {
-  background-color: #b2afaf;
-}
-
-.description-container .description-header {
+.article-header {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 32px;
@@ -181,10 +177,20 @@ table {
   color: #FFDB1E;
 }
 
+@media (min-width: 768px) {
+  .article-header {
+    font-size: 40px;
+  }
+}
+
+.description-container {
+  background-color: #b2afaf;
+}
+
 .description-container .description {
   background-color: black;
   width: 337px;
-  height: 344px;
+  min-height: 344px;
   border-radius: 10px;
 }
 
@@ -198,5 +204,97 @@ table {
   color: white;
   padding-left: 15px;
   line-height: 1.5;
+}
+
+.form-container {
+  background-color: #393939;
+}
+
+.form-container .form-desc {
+  max-width: 375px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.42);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.form-container .form {
+  width: 392px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.42);
+  border-radius: 10px;
+  color: white;
+}
+
+.form-container .form form > div {
+  margin: 9px 0;
+}
+
+.form-container .form form > div input {
+  border-radius: 0;
+}
+
+.form-container .form button {
+  max-width: 233px;
+  border-radius: 15px;
+  padding: 5px 60px;
+}
+
+.form-container .form button:hover {
+  background-color: black;
+  color: #FFDB1E;
+  outline: none;
+}
+
+.form-container .footer {
+  padding: 105px 0 31px;
+}
+
+@media (min-width: 768px) {
+  .form-container .footer {
+    padding: 163px 0 31px;
+  }
+}
+
+.form-container .footer .footer-info {
+  max-width: 883px;
+  height: 56px;
+  border: 5px solid white;
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+}
+
+.form-container .footer .linkedin-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3px;
+  font-size: 17px;
+}
+
+.form-container .footer .linkedin-links a:hover {
+  color: #0A66C2;
+}
+
+@media (min-width: 768px) {
+  .form-container .footer .footer-info,
+  .form-container .footer .linkedin-links a {
+    font-size: 20px;
+  }
+}
+
+.form-container .footer .terms-links a, .form-container .footer .terms-links {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.form-container .footer .terms-links a:hover {
+  color: #dbdbdb;
 }
 /*# sourceMappingURL=styles.css.map */
