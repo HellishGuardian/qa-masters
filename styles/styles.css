@@ -168,4 +168,35 @@ table {
 .banner .head-links .link:hover {
   color: #FFDB1E;
 }
+
+.description-container {
+  background-color: #b2afaf;
+}
+
+.description-container .description-header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 60px;
+  color: #FFDB1E;
+}
+
+.description-container .description {
+  background-color: black;
+  width: 337px;
+  height: 344px;
+  border-radius: 10px;
+}
+
+.description-container .description .desc-name {
+  font-size: 20px;
+  color: #FFDB1E;
+}
+
+.description-container .description ul {
+  list-style-type: disc;
+  color: white;
+  padding-left: 15px;
+  line-height: 1.5;
+}
 /*# sourceMappingURL=styles.css.map */
